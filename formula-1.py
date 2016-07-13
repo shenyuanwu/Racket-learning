@@ -1,0 +1,7 @@
+print("This program will calculate root of a quadratic equation with y=ax^2+bx+c.")
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+y1 = (- b + (b ** 2 - 4 * a * c) ** (1/2)) / (2 * a)
+y2 = (- b - (b ** 2 - 4 * a * c) ** (1/2)) / (2 * a)
+print("The first solution is " + str(y1) + ", the second solution is " + str(y2) + ".")
